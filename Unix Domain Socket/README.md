@@ -10,6 +10,8 @@ Unix Domain Socket은 IPC socket (Inter-Process Communication Socket) 이라고�
 
 ## Unix Domain Socket 관련 명령어
 
+`L` → [lsof](): 실행 중인 파일과 프로세스의 정보를 출력하는 명령어입니다. 시스템 전체의 UDS (Unix Domain Socket) 목록을 확인하기 위해서는 `-U` 옵션을 사용합니다.
+
 ## Unix Domain Socket 용어 설명
 
 ## 📣 REFERENCE
