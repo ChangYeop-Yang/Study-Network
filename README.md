@@ -4,5 +4,8 @@
 
 데이터를 출발시키고 라우팅시키고 종단시키는 네트워크 컴퓨터 장치들은 네트워크 노드로 부른다. 노드들은 개인용 컴퓨터, 전화, 서버, 네트워크 하드웨어와 같은 호스트를 포함할 수 있다. 이 두 장치들은 서로 직접 연결 여부에 관계 없이 하나의 장치가 다른 장치와 정보를 교환할 수 있을 때 함께 망으로 묶인다. 대부분의 경우 애플리케이션에 특화된 통신 프로토콜은 다른 더 일반적인 통신 프로토콜에 비해 계층화된다.
 
+## 목차 (Table of Contents)
+
 * `U` → [Unix Domain Socket](https://github.com/ChangYeop-Yang/Study-Network/tree/main/Unix%20Domain%20Socket)
+
 * `T` → [TCP/IP (Transmission Control Protocol/Internet Protocol)]()
