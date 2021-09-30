@@ -10,14 +10,12 @@ Unix Domain Socket은 IPC socket (Inter-Process Communication Socket) 이라고�
 
 ## 🛠 Unix Domain Socket 관련 명령어
 
-`L` → [lsof](https://terms.naver.com/entry.naver?docId=4125712&cid=59321&categoryId=59321): 실행 중인 파일과 프로세스의 정보를 출력하는 명령어입니다. 시스템 전체의 UDS (Unix Domain Socket) 목록을 확인하기 위해서는 `-U` 옵션을 사용합니다.
+* `L` → [lsof](https://terms.naver.com/entry.naver?docId=4125712&cid=59321&categoryId=59321): 실행 중인 파일과 프로세스의 정보를 출력하는 명령어입니다. 시스템 전체의 UDS (Unix Domain Socket) 목록을 확인하기 위해서는 `-U` 옵션을 사용합니다.
 
-`L` -> [ls](https://terms.naver.com/entry.naver?docId=4125708&cid=59321&categoryId=59321): 디렉터리 목록을 출력하는 명령어입니다. 디렉터리 내부의 파일들에 대한 UDS (Unix Domain Socket) 사용여부를 확인하고자 하는 경우에는 `-luh` 옵션을 사용합니다. 디렉터리나 파일의 권한을 나타내는 부분에 `s` 문자가 표시 된 파일은 UDS (Unix Domain Socket) 통신을 수행하고 있는 소켓 파일을 나타냅니다.
+* `L` -> [ls](https://terms.naver.com/entry.naver?docId=4125708&cid=59321&categoryId=59321): 디렉터리 목록을 출력하는 명령어입니다. 디렉터리 내부의 파일들에 대한 UDS (Unix Domain Socket) 사용여부를 확인하고자 하는 경우에는 `-luh` 옵션을 사용합니다. 디렉터리나 파일의 권한을 나타내는 부분에 `s` 문자가 표시 된 파일은 UDS (Unix Domain Socket) 통신을 수행하고 있는 소켓 파일을 나타냅니다.
 
 `sdrwxr-xr-x   5 mari  staff   160B  9 30 21:21 Developer`
 
-## 🛠 Unix Domain Socket 용어 설명
-
 ## 📣 REFERENCE
 
-* `WEB` → [TCP/IP - IBM](https://www.ibm.com/docs/ko/aix/7.1?topic=management-transmission-control-protocolinternet-protocol)
+* `WEB` → [유닉스 리눅스 명령어 사전](https://terms.naver.com/list.naver?cid=59321&categoryId=59321)
