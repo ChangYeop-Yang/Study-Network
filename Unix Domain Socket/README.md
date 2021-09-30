@@ -1,12 +1,12 @@
-# ■ TCP/IP
+# ■ Unix Domain Socket
 
-TCP/IP는 패킷 통신 방식의 인터넷 프로토콜인 IP (Internet Protocol, 인터넷 프로토콜)와 전송 조절 프로토콜인 TCP (Transmission Control Protocol, 전송 제어 프로토콜)로 이루어져 있다. 
+Unix Domain Socket은 IPC socket (Inter-Process Communication Socket) 이라고도 불리며, TCP (전송 제어 프로토콜, Transmission Control Protocol)의 소켓과 동일한 구조로 데이타를 주고 받을 수 있는 Local File 형식 기반의 소켓입니다. 즉, `동일한 시스템 내에서 파일을 통하여 실행되는 프로세스들 사이의 양방향 데이터 교환을 허용하는 프로세스 간 통신 메커니즘`이다.
 
-* IP (Internet Protocol, 인터넷 프로토콜)는 패킷 전달 여부를 보증하지 않고, 패킷을 보낸 순서와 받는 순서가 다를 수 있다. 또한, IP 프로토콜은 `Unreliable Datagram Service` 이다.
+* Unix Domain Socket은 `localhost`의 각 Process 통신이 되므로 속도가 매우 빠르며 메모리 사용량이 적다는 장정이 있습니다.
 
-* TCP (Transmission Control Protocol, 전송 제어 프로토콜)는 IP 위에서 동작하는 프로토콜로, 데이터의 전달을 보증하고 보낸 순서대로 받게 해준다.
+* TCP (전송 제어 프로토콜, Transmission Control Protocol) 프로토콜을 사용하는 네트워크 작업과 달리 UDS (Unix Domain Socke)는 Routing 작업을 수행하지 않습니다.
 
-## TCP/IP 용어 설명
+## Unix Domain Socket 용어 설명
 
 ## 📣 REFERENCE
 
