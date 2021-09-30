@@ -8,13 +8,13 @@ Unix Domain Socket은 IPC socket (Inter-Process Communication Socket) 이라고�
 
 * UDS (Unix Domain Socke) 사용하여 통신 작업을 수행할 경우에는 `Local File` 파일 단위로 통신 작업이 이루어지기에 파일에 접근권한을 제어하여 간단하게 서버와 클라이언트 단위로 프로세스 통신을 제어할 수 있습니다.
 
-## Unix Domain Socket 관련 명령어
+## 🛠 Unix Domain Socket 관련 명령어
 
 `L` → [lsof](https://terms.naver.com/entry.naver?docId=4125712&cid=59321&categoryId=59321): 실행 중인 파일과 프로세스의 정보를 출력하는 명령어입니다. 시스템 전체의 UDS (Unix Domain Socket) 목록을 확인하기 위해서는 `-U` 옵션을 사용합니다.
 
-`L` -> [ls](https://terms.naver.com/entry.naver?docId=4125708&cid=59321&categoryId=59321): 디렉터리 목록을 출력하는 명령어입니다.
+`L` -> [ls](https://terms.naver.com/entry.naver?docId=4125708&cid=59321&categoryId=59321): 디렉터리 목록을 출력하는 명령어입니다. 디렉터리 내부의 파일들에 대한 UDS (Unix Domain Socket) 사용여부를 확인하곶 하는 경우에는 `-luh` 옵션을 사용합니다.
 
-## Unix Domain Socket 용어 설명
+## 🛠 Unix Domain Socket 용어 설명
 
 ## 📣 REFERENCE
 
